@@ -885,6 +885,20 @@ section,
   }
 }
 
+@media (max-width: 320px) {
+  .btn-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+   .btn-get-started,
+  .watch-video {
+    flex: 1;
+    max-width: 48%; /* Two buttons side by side */
+    justify-content: center;
+  }
+}
+
 /* Container must allow absolute positioning */
 .position-relative {
   position: relative;
